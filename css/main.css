@@ -62,7 +62,7 @@
 
 @media (min-width: 992px) {
   .entrance {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
   }
