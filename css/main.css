@@ -22,7 +22,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .entrance .col-lg-10 {
   letter-spacing: 10px;
