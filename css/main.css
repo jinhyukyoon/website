@@ -22,6 +22,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   overflow: hidden;
+  min-height: 100vh;
 }
 .entrance .col-lg-10 {
   letter-spacing: 10px;
@@ -62,7 +63,6 @@
 
 @media (min-width: 992px) {
   .entrance {
-    min-height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -152,6 +152,11 @@
 }
 
 /* about page - contents */
+
+
+.col-md-flex{
+  margin-top: 150px;
+}
 
 .icons {
   margin-top: 5px;
@@ -334,6 +339,9 @@
   }
   .row-list-top {
     margin-top: 3px;
+  }
+  .col-md-flex{
+    margin-top: 0px;
   }
 }
 
