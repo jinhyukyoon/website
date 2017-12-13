@@ -27,7 +27,7 @@
   letter-spacing: 10px;
 }
 .entrance-text {
-  margin-top: 300px;
+  margin-top: 50px;
   letter-spacing: 3px;
 }
 
@@ -70,7 +70,11 @@
   .entrance h1 {
     font-size: 3rem;
   }
+  .entrance-text {
+    margin-top: 300px;
+  }
 }
+
 
 @media (min-width: 1200px) {
   .entrance h1 {
