@@ -197,11 +197,11 @@
 
 .lang-kor {
   font-family: 'Nanum Barun Gothic', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
   letter-spacing: -0.5px;
 }
 .lang-kor .description {
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 10px;
   letter-spacing: -0.5px;
 }
@@ -234,12 +234,12 @@
 
 .lang-kor .bold-title {
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
   letter-spacing: -1px;
 }
 
 .lang-kor .sub-title {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: bold;
   color: gray;
   letter-spacing: -1px;
@@ -259,11 +259,11 @@
 
 .lang-kor .list-name {
   font-weight: bold;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .lang-kor .list-name-sub {
-  font-size: 21px;
+  font-size: 17px;
   font-weight: bold;
   color: gray;
   display: block;
@@ -278,10 +278,10 @@
   letter-spacing: -0.5px;
 }
 .contents-date{
-  font-size: 15px;
+  font-size: 17px;
 }
 .contents-date-kor {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .contents-date-row-change {
@@ -315,7 +315,7 @@
     font-size: 15px;
   }
   .font-disapper-kor {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: -1px;
   }
   .contents-date-row-change {
