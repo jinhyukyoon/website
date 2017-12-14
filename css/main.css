@@ -512,12 +512,12 @@
 
 @media screen and (max-width: 700px) {
   .popup-list, .popup-list-kor {
-    width: 90%;
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .popup-project, .popup-project-kor {
-    width: 90%;
+    width: 95%;
   }
 }
