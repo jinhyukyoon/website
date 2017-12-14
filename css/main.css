@@ -450,7 +450,7 @@
 }
 
 .popup-list-kor .content, .popup-project-kor .content{
-  max-height: 700px;
+  max-height: 550px;
   overflow: auto;
   font-family: 'Nanum Barun Gothic', sans-serif;
   font-size: 17px;
