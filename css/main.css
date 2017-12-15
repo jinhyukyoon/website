@@ -443,14 +443,14 @@
 }
 
 .popup-list .content, .popup-project .content,{
-  max-height: 550px;
+  max-height: 580px;
   overflow: auto;
   font-family: 'Noto Sans', sans-serif;
   font-size: 15px;
 }
 
 .popup-list-kor .content, .popup-project-kor .content{
-  max-height: 550px;
+  max-height: 580px;
   overflow: auto;
   font-family: 'Nanum Barun Gothic', sans-serif;
   font-size: 17px;
