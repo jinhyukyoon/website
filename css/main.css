@@ -1,12 +1,35 @@
-
-
-@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-@import url('http://api.typolink.co.kr/css?family=RixSGo+L:400');
 @import url('https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
-
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/fonts/NotoSans-Regular.eot');
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/fonts/NotoSans-Regular.woff');
+}
+@font-face {
+    font-family: 'Noto Sans Bold';
+    src: url('/fonts/NotoSans-Bold.eot');
+}
+@font-face {
+    font-family: 'Noto Sans Bold';
+    src: url('/fonts/NotoSans-Bold.woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.eot');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.woff');
+}@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('/fonts/OpenSans-Bold.eot');
+}
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('/fonts/OpenSans-Bold.woff');
+}
 /* entrance page */
 
 .container {
@@ -89,7 +112,7 @@
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-  font-family: 'Helvetica-Md', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .btn-xl {
@@ -122,7 +145,7 @@
 }
 
 .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Bold', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   letter-spacing: 4px;
@@ -173,10 +196,10 @@
 
 .about-title {
   font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Bold', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0px;
+  letter-spacing: -1px;
   line-height: 45px;
   margin-top: 0px;
 }
@@ -258,11 +281,13 @@
 }
 
 .lang-kor .list-name {
-  font-weight: bold;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  font-weight: 700;
   font-size: 18px;
 }
 
 .lang-kor .list-name-sub {
+  font-family: 'Nanum Barun Gothic', sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: gray;
