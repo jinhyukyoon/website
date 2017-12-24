@@ -469,7 +469,8 @@
 
 .popup-list .content, .popup-project .content,{
   max-height: 580px;
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   font-family: 'Noto Sans', sans-serif;
   font-size: 15px;
 }
