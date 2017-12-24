@@ -427,9 +427,10 @@
   margin: 70px auto;
   padding: 20px;
   background: #fff;
-  border-radius: 5px;
   position: relative;
   transition: all 1s ease-in-out;
+  max-height: 85%;
+  overflow-y: auto;
 }
 
 .popup-list h2, .popup-project h2 {
@@ -468,16 +469,11 @@
 }
 
 .popup-list .content, .popup-project .content,{
-  max-height: 580px;
-  overflow-y: scroll;
-  overflow-x: hidden;
   font-family: 'Noto Sans', sans-serif;
   font-size: 15px;
 }
 
 .popup-list-kor .content, .popup-project-kor .content{
-  max-height: 580px;
-  overflow: auto;
   font-family: 'Nanum Barun Gothic', sans-serif;
   font-size: 17px;
   letter-spacing: -1px;
