@@ -58,19 +58,18 @@
 }
 
 .entrance .col-lg-10 {
+  margin-top: 150px;
   letter-spacing: 10px;
 }
 
 .entrance-text {
-  margin-top: 50px;
   letter-spacing: 3px;
 }
 
 .entrance hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
   max-width: 50px;
-  border-width: 3px;
+  border-width: 5px;
+  border-radius: 2px;
   border-color: #fff;
 }
 
@@ -104,7 +103,7 @@
     font-size: 3rem;
   }
   .entrance-text {
-    margin-top: 300px;
+    margin-top: 100px;
   }
 }
 
@@ -419,87 +418,6 @@
   margin-top: 100px;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup-list, .popup-list-kor, .popup-project, .popup-project-kor {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  transition: all 1s ease-in-out;
-  max-height: 85%;
-  overflow-y: auto;
-}
-
-.popup-list h2, .popup-project h2 {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  font-size: 25px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #333;
-}
-
-.popup-list-kor h2, .popup-project-kor h2 {
-  font-family: 'Nanum Barun Gothic', sans-serif;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  font-size: 25px;
-  margin-top: 0;
-  margin-bottom: 17px;
-  color: #333;
-}
-
-.popup-list .close, .popup-list-kor .close, .popup-project .close, .popup-project-kor .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-
-.popup-list .close:hover, .popup-list-kor .close:hover, .popup-project .close:hover, .popup-project-kor .close {
-  color: black;
-}
-
-.popup-list .content, .popup-project .content, {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 15px;
-}
-
-.popup-list-kor .content, .popup-project-kor .content {
-  font-family: 'Nanum Barun Gothic', sans-serif;
-  font-size: 17px;
-  letter-spacing: -1px;
-}
-
-.popup-list, .popup-list-kor {
-  width: 600px;
-}
-
-.popup-project, .popup-project-kor {
-  width: 900px;
-}
-
 .img-overlay-container {
   position: absolute;
   top: 0;
@@ -543,16 +461,4 @@
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-@media screen and (max-width: 700px) {
-  .popup-list, .popup-list-kor {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .popup-project, .popup-project-kor {
-    width: 95%;
-  }
 }
