@@ -1,44 +1,5 @@
-@import url('https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
-@font-face {
-  font-family: 'Noto Sans';
-  src: url('/fonts/NotoSans-Regular.eot');
-}
-
-@font-face {
-  font-family: 'Noto Sans';
-  src: url('/fonts/NotoSans-Regular.woff');
-}
-
-@font-face {
-  font-family: 'Noto Sans Bold';
-  src: url('/fonts/NotoSans-Bold.eot');
-}
-
-@font-face {
-  font-family: 'Noto Sans Bold';
-  src: url('/fonts/NotoSans-Bold.woff');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/fonts/OpenSans-Regular.eot');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/fonts/OpenSans-Regular.woff');
-}
-
-@font-face {
-  font-family: 'Open Sans Bold';
-  src: url('/fonts/OpenSans-Bold.eot');
-}
-
-@font-face {
-  font-family: 'Open Sans Bold';
-  src: url('/fonts/OpenSans-Bold.woff');
-}
-
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 /* entrance page */
 
 .container {
@@ -227,7 +188,7 @@
 }
 
 .lang-kor {
-  font-family: 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   letter-spacing: -0.5px;
 }
@@ -291,13 +252,13 @@
 }
 
 .lang-kor .list-name {
-  font-family: 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
 
 .lang-kor .list-name-sub {
-  font-family: 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: gray;
@@ -384,9 +345,7 @@
 
 /* works page thumbnail box */
 
-.award-space {
-
-}
+.award-space {}
 
 .work-bold-title {
   font-family: 'Noto Sans', sans-serif;
@@ -396,7 +355,7 @@
 }
 
 .work-bold-title-kor {
-  font-family: 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
   font-size: 22px;
   letter-spacing: -0.7px;
@@ -426,6 +385,7 @@
   font-weight: bold;
   letter-spacing: -1px;
 }
+
 .img-overlay-container {
   position: absolute;
   top: 0;
@@ -469,4 +429,9 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.img-fluid {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
