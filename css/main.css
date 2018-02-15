@@ -190,7 +190,7 @@
 .lang-kor {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
-  letter-spacing: -0.5px;
+  letter-spacing: -1.0px;
 }
 
 .lang-kor .description {
@@ -345,8 +345,6 @@
 
 /* works page thumbnail box */
 
-.award-space {}
-
 .work-bold-title {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
@@ -358,7 +356,7 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
   font-size: 22px;
-  letter-spacing: -0.7px;
+  letter-spacing: -1.5px;
 }
 
 .work-description {
