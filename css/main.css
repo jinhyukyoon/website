@@ -23,30 +23,36 @@
   letter-spacing: 10px;
 }
 
-.entrance-text {
-  letter-spacing: 3px;
-}
-
 .entrance hr {
   max-width: 50px;
   border-width: 5px;
   border-radius: 2px;
   border-color: #fff;
-}
-
-.entrance hr {
   margin-top: 30px;
-  margin-bottom: 30px;
   border-color: rgb(240, 95, 64);
 }
 
 .entrance h1 {
   font-size: 2rem;
+  letter-spacing: 1rem;
 }
 
 .entrance p {
   font-weight: 300;
   color: lightgray;
+}
+
+.entrance a, .text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+.entrance a:hover {
+  color: #b9b9b9;
 }
 
 @media (min-width: 768px) {
@@ -72,31 +78,6 @@
   .entrance h1 {
     font-size: 4rem;
   }
-}
-
-.btn {
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-  font-family: 'Noto Sans', sans-serif;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
-}
-
-.btn-primary {
-  background-color: rgba(240, 95, 64, 0.5);
-  border-color: rgba(240, 95, 64, 0.5);
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: rgba(240, 95, 64, 1) !important;
 }
 
 /* about page - main photos */
