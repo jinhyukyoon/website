@@ -7,79 +7,13 @@
 }
 
 .entrance {
-  background: url("../img/entrance.jpg") no-repeat center center fixed;
+  background: url("../img/entrance.jpg") no-repeat center center scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  overflow: hidden;
   min-height: 100vh;
 }
-
-.entrance .col-lg-10 {
-  margin-top: 150px;
-  letter-spacing: 10px;
-}
-
-.entrance hr {
-  max-width: 50px;
-  border-width: 5px;
-  border-radius: 2px;
-  border-color: #fff;
-  margin-top: 30px;
-  border-color: rgb(240, 95, 64);
-}
-
-.entrance h1 {
-  font-size: 2rem;
-  letter-spacing: 1rem;
-}
-
-.entrance p {
-  font-weight: 300;
-  color: lightgray;
-}
-
-.entrance a, .text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-decoration: none;
-  color: white;
-}
-
-.entrance a:hover {
-  color: #b9b9b9;
-}
-
-@media (min-width: 768px) {
-  .entrance p {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .entrance {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .entrance h1 {
-    font-size: 3rem;
-  }
-  .entrance-text {
-    margin-top: 100px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .entrance h1 {
-    font-size: 4rem;
-  }
-}
-
 /* about page - main photos */
 
 .carousel-item {
@@ -114,6 +48,14 @@
 .navbar {
   padding-bottom: 30px;
   padding-top
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .bg-dark {
