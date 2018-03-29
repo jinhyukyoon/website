@@ -88,10 +88,9 @@
 
 .about-title {
   font-size: 40px;
-  font-family: 'Open Sans Bold', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -1px;
   line-height: 45px;
   margin-top: 0px;
 }
@@ -110,17 +109,6 @@
   margin-top: 10px;
 }
 
-.lang-kor {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 17px;
-  letter-spacing: -1.0px;
-}
-
-.lang-kor .description {
-  font-size: 17px;
-  margin-top: 10px;
-  letter-spacing: -0.5px;
-}
 
 .row-head {
   padding-top: 100px;
@@ -149,19 +137,6 @@
   color: gray;
 }
 
-.lang-kor .bold-title {
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: -1px;
-}
-
-.lang-kor .sub-title {
-  font-size: 18px;
-  font-weight: bold;
-  color: gray;
-  letter-spacing: -1px;
-}
-
 .lang-eng .list-name {
   font-weight: 700;
   font-size: 17px;
@@ -169,20 +144,6 @@
 
 .lang-eng .list-name-sub {
   font-size: 14px;
-  font-weight: bold;
-  color: gray;
-  display: block;
-}
-
-.lang-kor .list-name {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.lang-kor .list-name-sub {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 17px;
   font-weight: bold;
   color: gray;
   display: block;
@@ -198,10 +159,6 @@
 }
 
 .contents-date {
-  font-size: 17px;
-}
-
-.contents-date-kor {
   font-size: 17px;
 }
 
@@ -228,16 +185,8 @@
     display: inline;
     margin-left: -7px;
   }
-  .lang-kor .list-name-sub {
-    display: inline;
-    margin-left: -4px;
-  }
   .font-disapper {
     font-size: 15px;
-  }
-  .font-disapper-kor {
-    font-size: 16px;
-    letter-spacing: -1px;
   }
   .contents-date-row-change {
     display: block;
@@ -246,7 +195,7 @@
 
 @media (min-width: 768px) {
   .about-title {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
   }
   .about-description {
@@ -273,13 +222,6 @@
   font-weight: bold;
   font-size: 18px;
   letter-spacing: -0.7px;
-}
-
-.work-bold-title-kor {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: bold;
-  font-size: 22px;
-  letter-spacing: -1.5px;
 }
 
 .work-description {
