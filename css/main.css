@@ -356,3 +356,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.img-3parts {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 960px) {
+  .img-3parts {
+    max-width: 32.9%;
+  }
+}
