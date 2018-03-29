@@ -271,7 +271,7 @@
 .work-bold-title {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: -0.7px;
 }
 
@@ -284,7 +284,7 @@
 
 .work-description {
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 14px;
   color: gray;
 }
 
@@ -305,33 +305,6 @@
 .modal-title {
   font-weight: bold;
   letter-spacing: -1px;
-}
-
-.img-overlay-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-}
-
-.card:hover .img-overlay-container {
-  opacity: 1;
-}
-
-.img-overlay {
-  width: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 .video-container {
