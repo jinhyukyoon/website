@@ -25,6 +25,7 @@
   background-size: cover;
 }
 
+
 .carousel-inner img {
   margin: auto;
 }
@@ -93,6 +94,7 @@
   text-transform: uppercase;
   line-height: 45px;
   margin-bottom: -10px;
+  letter-spacing: 0.5px;
 }
 
 .about-description {
@@ -195,7 +197,8 @@
 
 @media (min-width: 768px) {
   .about-title {
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
     line-height: 35px;
   }
   .about-description {
