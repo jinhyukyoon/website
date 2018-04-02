@@ -224,7 +224,7 @@
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   font-size: 18px;
-  letter-spacing: -0.7px;
+  letter-spacing: 0px;
 }
 
 .work-description {
@@ -249,7 +249,7 @@
 
 .modal-title {
   font-weight: bold;
-  letter-spacing: -1px;
+  letter-spacing: -0.5;
 }
 
 .video-container {
