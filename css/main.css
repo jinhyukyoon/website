@@ -257,6 +257,11 @@ html {
   display: inline-block;
 }
 
+
+.list-name-sub.bottom-space {
+  margin-bottom: 8px;
+}
+
 @media (min-width: 1200px) {
   .contents-date {
     text-align: right;
