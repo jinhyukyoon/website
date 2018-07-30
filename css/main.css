@@ -132,7 +132,7 @@ html {
 
 @media (max-width:397px) {
   .container.index-para {
-    margin-top: 95%;
+    margin-top: 75%;
   }
   .index-para .index {
     font-size: 30px;
