@@ -17,6 +17,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../work.js"></script>
 
   <!-- Custom styles for this template -->
   <link href="../css/main.css" rel="stylesheet">
@@ -65,7 +66,7 @@
             <div class="col-md-4 lang-eng">
               <span class="work-bold-title "> Entropy <br></span>
               <p class="work-description text-left">
-                Video art work expresses ageing through concept of entropy
+                Video art work expresses ageing through entropy
                 <p></p>
                 <div class="work-contents-date">2017</div>
             </div>
@@ -106,7 +107,7 @@
             <div class="col-md-4 lang-eng">
               <span class="work-bold-title "> Picture Science Project <br></span>
               <p class="work-description text-left">
-                Volunteer project delivers science with picture book and making activity
+                Volunteer project delivers scientific knowledge with picture book and making activity
               </p>
               <div class="work-contents-date">2016</div>
             </div>
@@ -499,10 +500,16 @@
 
   gtag('config', 'UA-119550312-1');
 
+  $(".modal").on('show.bs.modal', function(e) {
+    $('html').css('overflow-y', 'hidden');
+  });
+
+
   $(".modal").on('hide.bs.modal', function(e) {
     var $this = $(this);
     var $frame = $this.find('iframe');
     $frame.attr("src", $frame.attr("src"));
+    $('html').css('overflow-y', 'scroll');
   });
 </script>
 
