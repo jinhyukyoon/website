@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 /* entrance page */
 
-html {
-  overflow-y: scroll;
+body.none-scroll {
+  padding-right: 17px;
 }
 
 .container {
@@ -25,7 +25,7 @@ html {
 .carousel-item {
   height: 500px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
+  -webkit-background-s`ize: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -53,6 +53,10 @@ html {
 
 .navbar {
   padding-bottom: 10px;
+}
+
+.navbar.none-scroll {
+  margin-right: 17px;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
@@ -330,6 +334,14 @@ html {
 
 .work-row-sub {
   margin-top: 100px;
+}
+
+.modal-dialog {
+  overflow-y: initial !important
+}
+.modal-body {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
 }
 
 .modal-title {
