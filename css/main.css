@@ -188,6 +188,15 @@ body.none-scroll {
   margin-top: 25px;
 }
 
+.about-description a{
+  color: black;
+  text-decoration: underline;
+}
+.about-description a:hover{
+  color: gray;
+}
+
+
 .lang-eng {
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
