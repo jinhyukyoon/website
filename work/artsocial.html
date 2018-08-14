@@ -503,9 +503,11 @@
 
 
   $(".modal").on('hide.bs.modal', function(e) {
-    var $this = $(this);
-    var $frame = $this.find('iframe');
-    $frame.attr("src", $frame.attr("src"));
+    $('iframe').each(function() {
+      var src = $(this).attr('src');
+
+      $(this).attr('src', src);
+    });
   });
 </script>
 

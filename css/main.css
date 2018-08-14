@@ -188,14 +188,14 @@ body.none-scroll {
   margin-top: 25px;
 }
 
-.about-description a{
+.about-description a {
   color: black;
   text-decoration: underline;
 }
-.about-description a:hover{
+
+.about-description a:hover {
   color: gray;
 }
-
 
 .lang-eng {
   font-family: 'Noto Sans', sans-serif;
@@ -269,7 +269,6 @@ body.none-scroll {
 .about-title .row-change-2 {
   display: inline-block;
 }
-
 
 .list-name-sub.bottom-space {
   margin-bottom: 8px;
@@ -348,6 +347,7 @@ body.none-scroll {
 .modal-dialog {
   overflow-y: initial !important
 }
+
 .modal-body {
   max-height: calc(100vh - 150px);
   overflow-y: auto;
