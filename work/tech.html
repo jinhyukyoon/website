@@ -176,7 +176,6 @@
   $(".modal").on('hide.bs.modal', function(e) {
     $('iframe').each(function() {
       var src = $(this).attr('src');
-
       $(this).attr('src', src);
     });
   });
