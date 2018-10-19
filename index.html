@@ -1,28 +1,14 @@
-<!DOCTYPE HTML>
-<html lang="en" class="none-scroll">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119550312-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-119550312-1');
-  </script>
-
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="JinHyuk Yoon's Portfolio Page">
   <meta name="author" content="JinHyuk Yoon">
 
-  <title>Jinhyuk Yoon </title>
+  <title>Jinhyuk Yoon | About </title>
 
   <!-- Bootstrap core CSS -->
   <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,36 +22,268 @@
 
 </head>
 
-<body class="entrance">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top none-scroll" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">JinHyuk Yoon</a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link nav-link-black" href="./about.html">about</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle nav-link nav-link-black" data-toggle="dropdown" href="#">Work <span class="caret"></span></a>
-              <ul class="dropdown-menu dropdown-menu-index">
-                <li><a class = "nav-link nav-link-black nav-link-dropdown" href="./work/artsocial.html">Art & Social</a></li>
-                <li><a class = "nav-link nav-link-black nav-link-dropdown" href="./work/tech.html">Tech</a></li>
-              </ul>
-            </li>
-          </ul>
+<body>
+  <header></header>
+
+
+  <!-- Navigator -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">JinHyuk Yoon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">about  </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle nav-link nav-link-black" data-toggle="dropdown" href="#">Work <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="nav-link nav-link-black nav-link-dropdown" href="./work/artsocial.html">Art & Social</a></li>
+              <li><a class="nav-link nav-link-black nav-link-dropdown" href="./work/tech.html">Tech</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slide Photos -->
+
+  <div class="container container-carousel">
+    <div class="col-md-flex">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('./img/about/main1.jpg')"></div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('./img/about/main2.jpg')"></div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('./img/about/main3.jpg')"></div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
         </div>
       </div>
-    </nav>
-  </header>
-  <div class="container index-para">
-    <p class="index">
-      Design:<br>Experience,<br>people.
-    </p>
-  </div>
+    </div>
+
+
+
+
+    <!-- About Me -->
+
+
+    <section>
+      <div class="container">
+        <div class="row row-about">
+          <div class="col-md-3 about-title"> about me<br>
+            <div class="icons">
+              <a href="https://www.facebook.com/jinhyuk.a.yoon" target="_blank"><img src="./img/about/facebook.png" width="25px" height="25px"></a>
+              <a href="https://www.linkedin.com/in/jinhyukyoon/" target="_blank"><img src="./img/about/linkedin.png" width="25px" height="25px"></a>
+              <a href="mailto:jinhyuk.a.yoon@gmail.com"><img src="./img/about/gmail.png" width="25px" height="25px"></a>
+            </div>
+          </div>
+          <div class="col-md-9 lang-eng about-description text-left"> I am an engineer, designer and communicator creates inspirational experience and pragmatic solution. I love interacting with people through various project such as research, design, art work, and education. With my major
+            background and experiences, I've been trying to embrace and create meaningful work. <a href="./files/jinhyukyoon_CV.pdf">You can find my extended CV here.</a></div>
+        </div>
+
+
+        <!-- Experience -->
+
+        <div class="row row-head">
+          <div class="col-md-3 about-title">experience </div>
+          <div class="col-md-9">
+
+            <div class="row row-sub-top">
+              <div class="col-md-10 lang-eng">
+                <span class="bold-title "> Communications Manager <br></span>
+                <span class="sub-title">Sovoro<br> </span>
+                <p class="description text-left">Conducted UI/UX design of the service, catalog design, market research, and business activity related with public institution, educational institution, and people with hearing loss. </p>
+              </div>
+              <div class="col-xl-2 contents-date">Jan 2018<span class="contents-date-row-change"> - Apr 2018</span></div>
+            </div>
+
+
+            <div class="row row-sub">
+              <div class="col-md-10 lang-eng">
+                <span class="bold-title "> Science Communicator <br></span>
+                <span class="sub-title">Korea Foundation for the Advancement of Science & Creativity (KOFAC)<br> </span>
+                <p class="description text-left"> Gave talk, performed scientific street performance, and acted scientific play targeting adults as a finalist of FameLab Korea and science communicator commissioned by minister of Ministry of Science & ICT. </p>
+              </div>
+              <div class="col-xl-2 contents-date">May 2016<span class="contents-date-row-change"> - Jan 2018</span></div>
+            </div>
+
+            <div class="row row-sub">
+              <div class="col-md-10 lang-eng">
+                <span class="bold-title "> Student President <br></span>
+                <span class="sub-title">POSTECH, Department of Mechanical Engineering<br> </span>
+                <p class="description text-left"> Directed student membership training, professor appreciation banquet, association program with KAIST and founded basketball and badminton club. Also organized the student election committee and run the election for central student president.</p>
+              </div>
+              <div class="col-xl-2 contents-date">Jan 2016<span class="contents-date-row-change"> - Mar 2017</span></div>
+            </div>
+
+            <div class="row row-sub">
+              <div class="col-md-10 lang-eng">
+                <span class="bold-title "> Director <br></span>
+                <span class="sub-title">TEDxPOSTECH<br> </span>
+                <p class="description text-left"> Organized TEDx event under the theme 'question' with 6 speakers. Regular application was fully booked in 50 seconds after opening. Conducted team building, speaker and sponsor contact, stage planning and host at the event. </p>
+              </div>
+              <div class="col-xl-2 contents-date">Nov 2014<span class="contents-date-row-change"> - Nov 2015</span></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row row-head">
+          <div class="col-md-3 about-title"> education </div>
+          <div class="col-md-9">
+            <div class="row row-sub-top">
+              <div class="col-md-10 lang-eng">
+                <span class="bold-title "> Bachelor of Science in Mechanical Engineering </span><br>
+                <span class="sub-title">Pohang University of Science and Technology (POSTECH) </span>
+                <p class="description text-left">Bachelor Thesis Project - Book Borrowing Robot<br>Minor - Industrial Management Engineering<br>Expect to graduate with <i>Magna Cum Laude</i></p>
+              </div>
+              <div class="col-xl-2 contents-date">Mar 2014 <span class="contents-date-row-change"> - present</span></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Selected Honors & Awards -->
+
+
+
+        <div class="row row-head">
+          <div class="col-md-3 about-title"> selected awards</span>
+          </div>
+          <div class="col-md-9">
+
+            <div class="row row-list-top">
+              <div class="col-md-9 lang-eng">
+                <span class="list-name "> Commission Letter &nbsp; </span>
+                <span class="list-name-sub"> Science Communicator, Ministry of Science & ICT </span>
+              </div>
+              <div class="col-xl-3 contents-date font-disapper">2016</div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-9 lang-eng">
+                <span class="list-name "> Finalist &nbsp; </span>
+                <span class="list-name-sub"> FameLab Korea </span>
+              </div>
+              <div class="col-xl-3 contents-date font-disapper">2016</div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-9 lang-eng">
+                <span class="list-name"> Runners up &nbsp; </span>
+                <span class="list-name-sub"> Artience Creation Challenge 30x30 </span>
+              </div>
+              <div class="col-xl-3 contents-date font-disapper">2017</div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-9 lang-eng">
+                <span class="list-name "> Honorable Mention &nbsp; </span>
+                <span class="list-name-sub"> POSTECH, 3 Minute Science Speech Contest</span>
+              </div>
+              <div class="col-xl-3 contents-date font-disapper">2015</div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-9 lang-eng">
+                <span class="list-name "> Student of the Year &nbsp; </span>
+                <span class="list-name-sub"> POSTECH, Department of Mechanical Engineering </span>
+              </div>
+              <div class="col-xl-3 contents-date font-disapper">2015, 2016</div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+
+        <!-- Selected Student Activities -->
+
+
+
+        <div class="row row-head">
+          <div class="col-md-3 about-title"> skills and tools</span>
+          </div>
+          <div class="col-md-9">
+
+            <div class="row row-list-top">
+              <div class="col-md-12 lang-eng">
+                <span class="list-name "> Programming Language &nbsp; </span>
+                <span class="list-name-sub bottom-space"> C, C++, JAVA, JavaScript, HTML, CSS, MATLAB </span>
+              </div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-12 lang-eng">
+                <span class="list-name "> 3D Design &nbsp; </span>
+                <span class="list-name-sub bottom-space"> Solid Works </span>
+              </div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-12 lang-eng">
+                <span class="list-name "> Graphic Design &nbsp; </span>
+                <span class="list-name-sub bottom-space"> Adobe Photoshop, Illustrator, Premiere, After Effects, InDesign </span>
+              </div>
+            </div>
+
+            <div class="row row-list-sub">
+              <div class="col-md-12 lang-eng">
+                <span class="list-name "> Language &nbsp; </span>
+                <span class="list-name-sub bottom-space"> Native Korean, Fluent English </span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <br><br>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-1 bg-white ">
+      <div class="container">
+        <p class="m-1 text-center text-black page-footer">Copyright &copy; Jinhyuk Yoon 2017</p>
+      </div>
+
+      <!-- /.container -->
+    </footer>
 </body>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119550312-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119550312-1');
+</script>
 
 </html>
