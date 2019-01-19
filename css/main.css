@@ -44,20 +44,6 @@ body.none-scroll {
   font-weight: 800;
 }
 
-
-@media (max-width:400px) {
-.navbar-brand {
-    font-size: 25px;
-  }
-}
-
-@media (max-width:360px) {
-.navbar-brand {
-    font-size: 23px;
-  }
-}
-
-
 .nav-item {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif !important;
@@ -331,15 +317,17 @@ body.none-scroll {
 }
 
 @media (min-width: 768px) {
-.col-md-10 {
-    flex: 0 0 79%;
-    max-width: 79%;
+  .col-md-10 {
+      flex: 0 0 79%;
+      max-width: 79%;
+  }
 }
 
 @media (min-width: 1200px) {
-.col-xl-2 {
-    flex: 0 0 21%;
-    max-width: 21%;
+  .col-xl-2 {
+      flex: 0 0 21%;
+      max-width: 21%;
+  }
 }
 
 /* works page thumbnail box */
@@ -408,6 +396,8 @@ body.none-scroll {
   margin-bottom: 20px;
 }
 
-.col-md-8 {
-  padding-left: 100px;
+@media (min-width:768px) {
+  .col-md-8 {
+    padding-left: 100px;
+  }
 }
