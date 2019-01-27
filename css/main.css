@@ -413,5 +413,14 @@ body.none-scroll {
 @media (min-width:768px) {
   .col-md-8 {
     padding-left: 100px;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .col-md-4 {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
   }
 }
