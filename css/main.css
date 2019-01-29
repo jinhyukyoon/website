@@ -58,6 +58,12 @@ body.none-scroll {
   }
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right:0;
+    }
+}
+
 .nav-item {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif !important;
@@ -172,7 +178,7 @@ body.none-scroll {
 /* about page - contents */
 
 .container-carousel {
-  padding-top: 30px;
+  padding-top: 15px;
   margin-top: 100px;
 }
 
@@ -191,7 +197,6 @@ body.none-scroll {
 
 .about-title {
   font-size: 25px;
-  font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 45px;
@@ -212,12 +217,12 @@ body.none-scroll {
   color: gray;
 }
 
-.lang-eng {
+.about-contents, .work-contents {
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
 }
 
-.lang-eng .description {
+.description {
   font-size: 16px;
   margin-top: 10px;
 }
@@ -238,30 +243,31 @@ body.none-scroll {
   margin-top: 20px;
 }
 
-.lang-eng .bold-title {
+.bold-title {
   font-weight: 700;
   font-size: 18px;
 }
 
-.lang-eng .sub-title {
+.sub-title {
   font-size: 16px;
   font-weight: 700;
   color: gray;
+  letter-spacing: 0.2px;
 }
 
-.lang-eng .list-name {
+.list-name {
   font-weight: 700;
   font-size: 17px;
 }
 
-.lang-eng .list-name-sub {
+.list-name-sub {
   font-size: 14px;
   font-weight: bold;
   color: gray;
   display: block;
 }
 
-.contents-date {
+.about-date {
   font-family: 'Noto Sans', sans-serif;
   color: gray;
   line-height: 25px;
@@ -272,7 +278,7 @@ body.none-scroll {
   font-size: 15px;
 }
 
-.contents-date-row-change {
+.about-date-row-change {
   display: inline;
 }
 
@@ -290,19 +296,19 @@ body.none-scroll {
 }
 
 @media (min-width: 1200px) {
-  .contents-date {
+  .about-date {
     text-align: right;
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .lang-eng .list-name-sub {
+  .list-name-sub {
     display: inline;
     margin-left: -7px;
   }
   .font-disapper {
     font-size: 15px;
   }
-  .contents-date-row-change {
+  .about-date-row-change {
     display: block;
   }
 }
@@ -325,24 +331,8 @@ body.none-scroll {
   .row-list-top {
     margin-top: 3px;
   }
-  .col-md-flex {
-    margin-top: 0px;
-  }
 }
 
-@media (min-width: 768px) {
-  .col-md-10 {
-      flex: 0 0 79%;
-      max-width: 79%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .col-xl-2 {
-      flex: 0 0 21%;
-      max-width: 21%;
-  }
-}
 
 /* works page thumbnail box */
 
@@ -405,12 +395,43 @@ body.none-scroll {
   height: 100%;
 }
 
-.img-fluid {
+
+.img-fluid, .col-lg-6.text-with-img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+
 @media (min-width:768px) {
+
+/* about page*/
+
+  .col-md-3.about-contents {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+  .col-md-9.about-contents {
+    -ms-flex: 0 0 77%;
+    flex: 0 0 77%;
+    max-width: 77%;
+  }
+
+  .col-md-10.about-contents {
+    -ms-flex: 0 0 77%;
+    flex: 0 0 77%;
+    max-width: 77%;
+    padding-right: 50px;
+  }
+
+  .col-xl-2.about-date {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+
+/*work page*/
+
   .col-md-8 {
     padding-left: 100px;
     -ms-flex: 0 0 60%;
@@ -422,5 +443,19 @@ body.none-scroll {
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
     max-width: 40%;
+  }
+/*dsad*/
+}
+
+
+@media (min-width: 1200px) {
+  .col-xl-2 {
+      flex: 0 0 21%;
+      max-width: 21%;
+  }
+}
+@media (min-width: 992px){
+  .img-col {
+    padding-left:0;
   }
 }
