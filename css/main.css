@@ -49,6 +49,12 @@
   padding-left: 3px;
 }
 
+@media (max-width: 992px) {
+  .navbar-nav.ml-auto {
+    margin-left: -21px!important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1130px) {
   .navbar>.container {
     padding-left: 0px;
