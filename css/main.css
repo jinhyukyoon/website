@@ -43,9 +43,12 @@ body.none-scroll {
   letter-spacing: 4px;
   font-weight: 800;
 }
-.navbar>.container {
-    padding-left: 5px;
-    padding-right: 5px;
+
+@media (max-width: 1130px) {
+  .navbar> .container {
+      padding-left: 5px;
+      padding-right: 5px;
+  }
 }
 
 @media (max-width:420px) {
