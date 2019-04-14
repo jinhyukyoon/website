@@ -159,7 +159,7 @@ body.none-scroll {
 }
 
 .page-footer {
-  font-family: 'Noto Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 15px;
 }
 
@@ -205,13 +205,13 @@ body.none-scroll {
 }
 
 .work-contents {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
 
 .about-contents, .work-contents {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .description {
@@ -260,7 +260,7 @@ body.none-scroll {
 }
 
 .about-date {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: gray;
   line-height: 25px;
   text-align: left;
@@ -337,7 +337,7 @@ body.none-scroll {
 /* works page thumbnail box */
 
 .work-bold-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0px;
