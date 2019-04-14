@@ -3,14 +3,18 @@
 /* entrance page */
 
 
-body.none-scroll {
-  padding-right: 17px;
-}
-
 .container {
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.padding-bottom-50px {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-100px {
+  padding-bottom: 100px;
 }
 
 .entrance {
@@ -180,7 +184,7 @@ body.none-scroll {
 }
 
 .row-about {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .about-title {
