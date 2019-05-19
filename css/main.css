@@ -258,16 +258,8 @@
   letter-spacing: 0.2px;
 }
 
-.list-name {
+.list-bold {
   font-weight: 700;
-  font-size: 17px;
-}
-
-.list-name-sub {
-  font-size: 14px;
-  font-weight: bold;
-  color: gray;
-  display: block;
 }
 
 .about-date {
