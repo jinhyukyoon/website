@@ -9,6 +9,10 @@
   margin-left: auto;
 }
 
+.padding-bottom-100px {
+  padding-bottom: 100px;
+}
+
 /* about page - main photos */
 
 .carousel-item {
