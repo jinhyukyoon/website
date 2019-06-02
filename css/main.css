@@ -125,6 +125,10 @@
   margin-top: 100px;
 }
 
+.icons img {
+  border-radius: 2px;
+}
+
 .row-about {
   padding-top: 50px;
 }
