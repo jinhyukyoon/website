@@ -145,12 +145,12 @@
   margin-top: 25px;
 }
 
-.about-description a {
+.about-contents a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.about-description a:hover {
+.about-contents a:hover {
   color: gray;
 }
 
