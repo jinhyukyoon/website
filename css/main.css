@@ -205,7 +205,7 @@
   line-height: 25px;
   text-align: left;
   margin-bottom: 10px;
-  margin-top: -5px;
+  margin-top: 0px;
   letter-spacing: -0.5px;
   font-size: 15px;
 }
@@ -234,7 +234,6 @@
   .about-date {
     text-align: right;
     margin-bottom: 0px;
-    margin-top: 0px;
   }
   .list-name-sub {
     display: inline;
@@ -265,6 +264,9 @@
     font-size: 25px;
     letter-spacing: 0.5px;
     line-height: 35px;
+  }
+  .about-date {
+    margin-top: -10px;
   }
 
   .font-disapper, .font-disapper-kor {
