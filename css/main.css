@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 /* entrance page */
 
 
@@ -71,7 +72,7 @@
 
 .nav-item {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-left: 20px;
@@ -192,7 +193,7 @@
   font-size: 16px;
   font-weight: 700;
   color: gray;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.4px;
 }
 
 .list-bold {
@@ -206,7 +207,7 @@
   text-align: left;
   margin-bottom: 10px;
   margin-top: 0px;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.0px;
   font-size: 15px;
 }
 
@@ -229,7 +230,7 @@
 
 @media (min-width: 1200px) {
   .about-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .about-date {
     text-align: right;
@@ -262,7 +263,6 @@
 @media (max-width: 767px) {
   .about-title {
     font-size: 25px;
-    letter-spacing: 0.5px;
     line-height: 35px;
   }
   .about-date {
@@ -281,7 +281,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 45px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1.0px;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 10px;
@@ -334,7 +334,7 @@
 
 .modal-title {
   font-weight: bold;
-  letter-spacing: -0.5;
+  letter-spacing: -0.5px;
 }
 
 .video-container {
