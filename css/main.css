@@ -3,7 +3,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 /* entrance page */
 
+@media only screen and (max-width: 768px) {
+  #mainNav {
+    max-height: fit-content;
+  }
+ /* And we even need to overwrite the overflow property*/
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 
+}
 .container {
   max-width: 1100px;
   margin-right: auto;
