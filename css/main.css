@@ -15,7 +15,7 @@ strong {
 .container {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
@@ -170,7 +170,7 @@ strong {
 }
 
 .description {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
@@ -196,7 +196,7 @@ strong {
 }
 
 .sub-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   color: gray;
 }
@@ -211,7 +211,7 @@ strong {
   text-align: left;
   margin-bottom: 10px;
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .about-date-row-change {
@@ -296,13 +296,13 @@ strong {
 
 .work-description {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(76, 76, 76);
 }
 
 .work-contents-date {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: gray;
 }
 
