@@ -1,6 +1,7 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
+
 /* entrance page */
 p {
   font-size: 17px;
@@ -10,7 +11,6 @@ p {
 strong {
   font-weight: 500;
 }
-
 
 .container {
   font-family: 'Roboto', sans-serif;
@@ -26,7 +26,6 @@ strong {
 }
 
 /* about page - main photos */
-
 .carousel-item {
   height: 500px;
   background: no-repeat center center scroll;
@@ -49,13 +48,13 @@ strong {
   padding-left: 3px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .navbar-nav.ml-auto {
-    margin-left: -21px!important;
+    margin-left: -21px !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1130px) {
+@media (min-width: 991px) and (max-width: 1130px) {
   .navbar>.container {
     padding-left: 0px;
     padding-right: 0px;
@@ -68,17 +67,16 @@ strong {
   }
 }
 
-
 @media (max-width:370px) {
   .navbar-brand {
     font-size: 23px;
   }
 }
 
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-      padding-right:0;
-    }
+@media (min-width: 991px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+  }
 }
 
 .nav-item {
@@ -125,13 +123,13 @@ strong {
   .navbar-dark .navbar-nav .nav-item .nav-link.nav-link-black {
     color: rgba(0, 0, 0, 0.5);
   }
+
   .navbar-dark .navbar-nav .nav-item .nav-link.nav-link-black:focus, .navbar-dark .navbar-nav .nav-item .nav-link.nav-link-black:hover {
     color: rgba(0, 0, 0, 0.9);
   }
 }
 
 /* about page - contents */
-
 .container-carousel {
   padding-top: 15px;
   margin-top: 100px;
@@ -217,7 +215,6 @@ strong {
   display: inline;
 }
 
-
 .font-disapper {
   font-size: 15px;
 }
@@ -234,14 +231,17 @@ strong {
   .about-title {
     font-size: 20px;
   }
+
   .about-date {
     text-align: right;
     margin-bottom: 0px;
   }
+
   .list-name-sub {
     display: inline;
     margin-left: -7px;
   }
+
   .about-date-row-change {
     display: block;
   }
@@ -251,12 +251,15 @@ strong {
   .about-description {
     margin-top: 3px;
   }
+
   .about-title .row-change-2 {
     display: inline-block;
   }
+
   .row-sub-top {
     margin-top: 1.5px;
   }
+
   .row-list-top {
     margin-top: 3px;
   }
@@ -267,6 +270,7 @@ strong {
     font-size: 25px;
     line-height: 35px;
   }
+
   .about-date {
     margin-top: -10px;
   }
@@ -276,7 +280,6 @@ strong {
     margin-bottom: -15px;
   }
 }
-
 
 /* works page thumbnail box */
 .work-title {
@@ -315,6 +318,30 @@ strong {
 
 .work-row-top {
   padding-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .work-row-top {
+    padding-top: 20px;
+  }
+
+  .col-md-4.exploration {
+    margin-top: 20px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .card.exploration {
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (max-width: 479px) {
+  .col-md-4.exploration {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .work-row-sub {
@@ -365,16 +392,15 @@ strong {
   margin-bottom: 20px;
 }
 
-
 @media (min-width:768px) {
 
-/* about page*/
-
+  /* about page*/
   .col-md-3.about-contents {
     -ms-flex: 0 0 23%;
     flex: 0 0 23%;
     max-width: 23%;
   }
+
   .col-md-9.about-contents {
     -ms-flex: 0 0 77%;
     flex: 0 0 77%;
@@ -394,8 +420,7 @@ strong {
     max-width: 23%;
   }
 
-/*work page*/
-
+  /*work page*/
   .col-md-8 {
     padding-left: 100px;
     -ms-flex: 0 0 55%;
@@ -414,20 +439,19 @@ strong {
   }
 
   .card-img-top.exploration {
-    height:12rem;
+    height: 12rem;
   }
 }
-
 
 @media (min-width: 1200px) {
   .col-xl-2 {
-      flex: 0 0 21%;
-      max-width: 21%;
+    flex: 0 0 21%;
+    max-width: 21%;
   }
-
 }
-@media (min-width: 992px){
+
+@media (min-width: 991px) {
   .img-col {
-    padding-left:0;
+    padding-left: 0;
   }
 }
