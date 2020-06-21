@@ -167,6 +167,10 @@ strong {
   padding-bottom: 5px;
 }
 
+.publication .about-contents {
+  padding-bottom: 20px;
+}
+
 .description {
   margin-top: 10px;
 }
