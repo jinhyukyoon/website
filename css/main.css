@@ -176,7 +176,7 @@ strong {
 }
 
 .row-head {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .row-sub-top {
@@ -251,7 +251,7 @@ strong {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .about-description {
     margin-top: 3px;
   }
@@ -337,6 +337,17 @@ strong {
 
   .card.exploration {
     margin-bottom: 25px;
+  }
+  .col-md-4.work-contents{
+    padding-top: 20px;
+  }
+
+  .work-contents .work-description {
+    margin-bottom: 7px;
+  }
+
+  .work-row-sub {
+    margin-top: 50px !important;
   }
 
 }
