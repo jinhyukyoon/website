@@ -149,6 +149,10 @@ strong {
   line-height: 45px;
   margin-top: -6px;
 }
+.about-title-two-line {
+  line-height: 30px;
+  padding-top: 5px;
+}
 
 .about-description {
   margin-top: 25px;
